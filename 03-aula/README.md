@@ -1,4 +1,5 @@
 ### Função CalcAkBk
+function[ak,bk] = CalcAkBk(v, Ta, T, N)
 
 argumentos:
 * v = vetor linha ou coluna com as amostras do sinal, essas amostras devem respeitar o intervalo de tempo 0 a T
