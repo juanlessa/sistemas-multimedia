@@ -1,10 +1,8 @@
-T = 1/2; %periodo
-f = 2; %frequencia
+f = 1;%frequencia
+T = 1; %periodo
 Ta = 0.01; %intervalo de tempo entre cada amostra
 t = 0:Ta:T; %intervalo de amostragem
 
-x = 2*sin(4*pi()*t);
+w = sin(6*pi()*t) + sin(8*pi()*t + 0.1)
 
-plot(t,x)
-
-
+plot(t,w)
