@@ -16,9 +16,9 @@ function[ak,bk] = CalcAkBk(v, Ta, T, N)
                  incremento = (-1)*incremento;
              end
              integralAk = integralAk + incremento;
-             %guarda ak no vetor
-             ak(k) = integralAk;
         end
+        %guada no vetor de Ak o valor de A para esse K
+        ak(k) = (2/T)*integralAk;
     end
 
     %calculo do bk
@@ -33,9 +33,9 @@ function[ak,bk] = CalcAkBk(v, Ta, T, N)
                  incremento = (-1)*incremento;
              end
              integralBk = integralBk + incremento;
-             %guarda ak no vetor
-             bk(k) = integralBk;
         end
+        %guada no vetor de Bk o valor de B para esse K
+        bk(k) = (2/T)*integralBk;
     end
     
 end
