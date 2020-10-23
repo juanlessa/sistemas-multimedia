@@ -1,6 +1,10 @@
 ### Função Potencia
-argumentos: vetor linha ou coluna com as amostras  
-retorna: escalar equivalente a potencia do sinal
+
+argumentos:
+* v = vetor linha ou coluna com as amostras  
+
+retorno:
+* p = escalar equivalente a potencia do sinal
 
 ### Sinais
 * sinal1a x(t) = 2*sin(4*pi()*t)
