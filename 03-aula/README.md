@@ -12,7 +12,7 @@ retorno:
 * bk = vetor 1xN com os valores de Bk
 
 ### Função ExecFurierSeries
-function [] = ExecFurierSeries(Ta,f,ak,bk)  
+function x = ExecFurierSeries(Ta,f,ak,bk)  
 
 argumentos:
 * Ta = intervalo de tempo entre cada amostra do sial
