@@ -6,6 +6,5 @@ Entre os assuntos abordados estão:
 * Representações de sinais
 * Conversão analogico-digital
 * Codificação de sinais
-* Algoritimos de compressão com e sem perda
-
+* Algorítimos de compressão com e sem perda
 Para a realização dos exercicios foi usado MATLAB.
